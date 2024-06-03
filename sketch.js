@@ -1,5 +1,5 @@
 function prelaod(){
-  noiseImg = loadImage("upload_e7b8681276bf136e02f932e89ea6fe54")
+  noiseImg = loadImage("upload_e7b8681276bf136e02f932e89ea6fe54.gif")
 }
 
 let video, bodypose, pose, keypoint, detector;
