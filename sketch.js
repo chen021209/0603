@@ -57,7 +57,7 @@ function drawSkeleton() {
   for (let i = 0; i < poses.length; i++) {
     pose = poses[i];
     // shoulder to wrist
-    partA= pose.keypoint[0];
+    partA= pose.keypoints[0];
     if(partA.score > 0.1){
       push()
       textSize(40)
