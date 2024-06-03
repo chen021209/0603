@@ -62,7 +62,7 @@ function drawSkeleton() {
       push()
       textSize(40)
       scale(-1,1)
-      text("412730482",partA.x,partA.y-250)
+      text("412730482,陳儷靜",partA.x-width,partA.y-150)
       pop()
     }
     for (j = 5; j < 9; j++) {
