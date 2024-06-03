@@ -49,6 +49,7 @@ function draw() {
   translate(cam.width, 0);
   scale(-1, 1);
   image(cam, 0, 0);
+  image(noiseImg,0,0,width,height)
 }
 
 function drawSkeleton() {
